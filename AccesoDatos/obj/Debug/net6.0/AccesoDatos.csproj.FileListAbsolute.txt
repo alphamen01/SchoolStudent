@@ -1,0 +1,14 @@
+C:\Proyectos 2023\.NET\SchoolStudent\AccesoDatos\bin\Debug\net6.0\AccesoDatos.deps.json
+C:\Proyectos 2023\.NET\SchoolStudent\AccesoDatos\bin\Debug\net6.0\AccesoDatos.runtimeconfig.json
+C:\Proyectos 2023\.NET\SchoolStudent\AccesoDatos\bin\Debug\net6.0\AccesoDatos.dll
+C:\Proyectos 2023\.NET\SchoolStudent\AccesoDatos\bin\Debug\net6.0\AccesoDatos.pdb
+C:\Proyectos 2023\.NET\SchoolStudent\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.AssemblyReference.cache
+C:\Proyectos 2023\.NET\SchoolStudent\AccesoDatos\obj\Debug\net6.0\AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos 2023\.NET\SchoolStudent\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Proyectos 2023\.NET\SchoolStudent\AccesoDatos\obj\Debug\net6.0\AccesoDatos.AssemblyInfo.cs
+C:\Proyectos 2023\.NET\SchoolStudent\AccesoDatos\obj\Debug\net6.0\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Proyectos 2023\.NET\SchoolStudent\AccesoDatos\obj\Debug\net6.0\AccesoDatos.dll
+C:\Proyectos 2023\.NET\SchoolStudent\AccesoDatos\obj\Debug\net6.0\refint\AccesoDatos.dll
+C:\Proyectos 2023\.NET\SchoolStudent\AccesoDatos\obj\Debug\net6.0\AccesoDatos.pdb
+C:\Proyectos 2023\.NET\SchoolStudent\AccesoDatos\obj\Debug\net6.0\AccesoDatos.genruntimeconfig.cache
+C:\Proyectos 2023\.NET\SchoolStudent\AccesoDatos\obj\Debug\net6.0\ref\AccesoDatos.dll
