@@ -60,6 +60,34 @@ namespace AccesoDatos.Operations
             }
 
         }
+
+        public bool actualizar(int id, string dni, string nombre, string direccion, int edad, string email)
+        {
+            try
+            {
+                var alumno = seleccionar(id);
+                if (alumno == null)
+                {
+                    return false;
+                }
+                else
+                {
+                    alumno.Dni = dni;
+                    alumno.Nombre = nombre;
+                    alumno.Direccion = direccion;
+                    alumno.Edad = edad;
+                    alumno.Email = email;
+
+                    context.SaveChanges();
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+
+        }
     }
 }
 

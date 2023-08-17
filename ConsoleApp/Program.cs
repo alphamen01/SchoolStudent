@@ -9,13 +9,15 @@ public class Program
         AlumnoDAO opAlumno = new AlumnoDAO();
 
         Console.WriteLine("*******************************************");
-        opAlumno.insertar("88811", "Luger", "Gramadal", 55, "luger@gmail.com");
+        //opAlumno.insertar("0009", "Loida", "alisos", 35, "loida@gmail.com");
+        opAlumno.actualizar(14,"0019", "Luz", "chimbote", 35, "luz@gmail.com");
+
 
         var alumnos = opAlumno.seleccionarTodos();
 
         foreach (var item in alumnos)
         {
-            Console.WriteLine(item.Dni);
+            Console.WriteLine(item.Nombre);
         }
 
         Console.WriteLine("-----------------------------------");
