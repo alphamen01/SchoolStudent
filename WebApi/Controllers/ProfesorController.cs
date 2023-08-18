@@ -9,7 +9,7 @@ namespace WebApi.Controllers
     [ApiController]
     public class ProfesorController : ControllerBase
     {
-        public ProfesorDAO profesorDAO = new ProfesorDAO();
+        private ProfesorDAO profesorDAO = new ProfesorDAO();
 
         [HttpPost("autenticacion")]
         public string login([FromBody] Profesor prof)
