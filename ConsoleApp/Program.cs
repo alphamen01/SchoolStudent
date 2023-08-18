@@ -12,6 +12,12 @@ public class Program
         //opAlumno.insertar("0009", "Loida", "alisos", 35, "loida@gmail.com");
         //opAlumno.actualizar(14,"0019", "Loida", "chimbote", 35, "luz@gmail.com");
         //opAlumno.eliminar(14);
+        var alumnoasig = opAlumno.seleccionarAlumnosAginaturas();
+
+        foreach (AlumnoAsignatura alasig in alumnoasig)
+        {
+            Console.WriteLine(alasig.NombreAlumno + " - " + alasig.NombreAsignatura);
+        }
 
         var alumnos = opAlumno.seleccionarTodos();
 

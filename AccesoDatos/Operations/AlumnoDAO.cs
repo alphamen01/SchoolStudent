@@ -113,7 +113,23 @@ namespace AccesoDatos.Operations
                 return false;
             }
         }
+
+        public List<AlumnoAsignatura> seleccionarAlumnosAginaturas()
+        {
+            var query = from a in context.Alumnos
+                        join m in context.Matriculas on a.Id equals m.AlumnoId
+                        join asig in context.Asignaturas on m.AsignaturaId equals asig.Id
+                        select new AlumnoAsignatura
+                        {
+                            NombreAlumno = a.Nombre,
+                            NombreAsignatura = asig.Nombre
+                        };
+            return query.ToList();
+        }
+
     }
+
+    
 }
 
     
