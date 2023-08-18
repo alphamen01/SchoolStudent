@@ -10,8 +10,8 @@ public class Program
 
         Console.WriteLine("*******************************************");
         //opAlumno.insertar("0009", "Loida", "alisos", 35, "loida@gmail.com");
-        opAlumno.actualizar(14,"0019", "Luz", "chimbote", 35, "luz@gmail.com");
-
+        //opAlumno.actualizar(14,"0019", "Loida", "chimbote", 35, "luz@gmail.com");
+        //opAlumno.eliminar(14);
 
         var alumnos = opAlumno.seleccionarTodos();
 

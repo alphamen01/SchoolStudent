@@ -78,6 +78,7 @@ namespace AccesoDatos.Operations
                     alumno.Edad = edad;
                     alumno.Email = email;
 
+                    context.Alumnos.Update(alumno);
                     context.SaveChanges();
                 }
                 return true;
@@ -87,6 +88,30 @@ namespace AccesoDatos.Operations
                 return false;
             }
 
+        }
+
+        public bool eliminar(int id)
+        {
+            
+            try
+            {
+                var alumno = seleccionar(id);
+                if (alumno == null)
+                {
+                    return false;
+                }
+                else
+                {
+                    context.Alumnos.Remove(alumno);
+                    context.SaveChanges();
+                    return true;
+                }
+                
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
     }
 }
