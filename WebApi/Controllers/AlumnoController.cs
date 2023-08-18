@@ -22,6 +22,12 @@ namespace WebApi.Controllers
         {
             return alumnoDAO.seleccionar(id);
         }
+
+        [HttpPut("alumno")]
+        public bool ActualizarAlumno([FromBody] Alumno alumn)
+        {
+            return alumnoDAO.actualizar(alumn.Id,alumn.Dni,alumn.Nombre,alumn.Direccion,alumn.Edad,alumn.Email);
+        }
     }
 
 
